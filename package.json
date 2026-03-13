@@ -1,0 +1,10 @@
+{
+  "name": "hello-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple hello API for Docker/GitHub deploy workflow",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
