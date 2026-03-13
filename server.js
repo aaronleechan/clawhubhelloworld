@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   }
 
   res.writeHead(200, { 'Content-Type': 'application/json' });
-  res.end(JSON.stringify({ message: 'Hello from Dockerized API 🚀' }));
+  res.end(JSON.stringify({ message: 'hello world 2' }));
 });
 
 server.listen(PORT, () => {
